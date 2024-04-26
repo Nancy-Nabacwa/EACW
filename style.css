@@ -340,6 +340,15 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: rgb(191,104,169)    
 }
+#landing-page{
+    display: block;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 10px 10px 14px ;
+    background-color: #ffc;
+    height:120vh;
+    flex-wrap: wrap;
+}
 h2{
     font-weight: bold;
     font-size: 100px;
@@ -397,7 +406,7 @@ h4{
     font-size:30px;
     margin-left:380px;
     margin-top: 50px;
-    color: white;
+    color:black;
 }
 #landing-page{
     display: block;
