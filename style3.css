@@ -6,11 +6,17 @@
 .goals-container{
     width: 100%;
     min-height: 100vh;
-    background:rgb(191,104,169);
     padding-top: 10%;
     padding-left:30%;
 }
+#goals-page{
+    display: block;
+    margin: 50px;
+    box-shadow: 10px 10px 14px ;
+    background-color: #ffc;
+    height:110vh;
 
+}
 .goals-container button{
     background:rgb(232,16,138);
     color: #fff;

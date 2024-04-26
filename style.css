@@ -94,6 +94,14 @@ ul li span{
     text-align: centre;
     
 }
+#todo-page{
+    display: block;
+    margin: 50px;
+    box-shadow: 10px 10px 14px ;
+    background-color: #ffc;
+    height:110vh;
+
+}
 
 
 /* 
@@ -404,9 +412,7 @@ h4 a{
     color: rgb(232,16,138);
 }
 
-#landing-page-bottom-content{
-    text-align: center;
-}
+
 
 
 
@@ -418,7 +424,15 @@ h4 a{
     width:500px;
     margin: 0% auto;
     }
+#login-form{
+    border-radius: 30px;
+    box-shadow: 10px 10px 14px rgba(33,33,33,.7);
+    background: #fff;
+    padding: 50px;
+    width:500px;
+    margin: 0% auto;
 
+}
 #signUpform-h6 ,#signUpform-h1{
     text-align: center;
     color:rgb(232,16,138);
@@ -438,6 +452,15 @@ h4 a{
        box-shadow:  10px 10px 14px rgba(33,33,33,.7);
        
     }
+    #login-button{
+        width:400px;
+        color: white;
+        background-color:rgb(232,16,138);
+        height: 50px;
+        border: none;
+        border-radius: 30px;
+        box-shadow:  10px 10px 14px rgba(33,33,33,.7);
+    }
 
     #button a{
         text-decoration: none;
@@ -446,6 +469,15 @@ h4 a{
 
     
     .signup-input{
+        padding:5px;
+        width:400px;
+        height: 30px;
+        border: none;
+        font-size: 10px;
+        box-shadow:10px 10px 14px rgba(33,33,33,.7);
+        
+    }
+    .login-input{
         padding:5px;
         width:400px;
         height: 30px;
@@ -564,6 +596,63 @@ h4 a{
             margin-top: 50px;
         }
         
+     }
+
+     
+     @media only screen and (min-width: 1200px) and (max-width: 1280px) {
+
+        #landing-page-signUp-button{
+          margin-left: 400px;
+          
+        }
+
+        h4{
+            font-size:30px;
+            margin-left:520px;
+        }
+
+        #signUp-form{
+            margin-top: 5%;
+            width: 600px;
+            height: 700px;
+        }
+        #login-form{
+            width: 600px;
+            height: 600px;
+
+        }
+        .signup-input{
+            width: 500px;
+            height: 50px;
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        #button{
+            width:520px;
+            height: 50px;
+            
+         }
+
+          #login-button{
+            width:520px;
+            height: 50px;
+         }
+         #signUpform-h6 {
+            font-size: 12px;
+      }
+
+      .login-input{
+        width: 500px;
+        height: 50px;
+        font-size: 20px;
+        margin: 12px;
+      }
+      #login-button a{
+        text-decoration: none;
+        color: white;
+      }
+
      }
 
 
