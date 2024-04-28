@@ -415,3 +415,55 @@ display: flex;
      
     }
 }
+@media only screen and (min-width: 450px) and (max-width: 540px) {
+    .florenceimage{
+        height: 300px;
+        width: 300px;
+        margin-top: -20%;
+        margin-left: -10%;
+    }
+    #mentor-details-container{
+        flex-direction: column;
+        margin-top: -60%;
+        margin-right: 40px;
+        gap: 10px;
+    }
+    #personal-details-heading{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .personal-details-container{
+        height: 220px;
+        width: 100%;
+     
+    }
+    #mentorship-page-container{
+        height: 130vh;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 912px) {
+    .florenceimage{
+        height: 300px;
+        width: 300px;
+        margin-top: -20%;
+        margin-left: -10%;
+    }
+    #mentor-details-container{
+        margin-top: -100%;
+        margin-right: 40px;
+        gap: 30px;
+    }
+    #mentorship-page-container{
+        height: 60vh;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+    #mentor-details-container{
+        margin-top: -120%;
+        margin-right: 40px;
+        gap: 30px;
+    }
+    #mentorship-page-container{
+        height: 150vh;
+    }
+}

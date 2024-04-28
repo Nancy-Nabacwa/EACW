@@ -542,11 +542,59 @@ h4 a{
         #landing-page{
             height: 120%;
         }
+        #login-form{
+            width: 700px;
+           height: 50vh;
+            margin-left: -2%;
+           margin-top: 10%;
+    
+        }
+        #login-button{
+            width:600px;
+            height: 50px;
+            margin-left: -20px;
+         }
+         .login-input{
+            width: 600px;
+            height: 50px;
+            margin: 10px;
+            font-size: 20px;
+            margin-left: -20px;
+          }
      }
 
-     @media only screen and (max-width: 362px){
-        
+
+     @media only screen and (min-width: 412px) and (max-width: 414px) {
+        #login-form{
+            width: 400px;
+             margin-left: -45px;
+            margin-top: 50%;
+     
+         }
+         #login-button{
+             width:350px;
+             height: 50px;
+             margin-left: -20px;
+          }
+          .login-input{
+             width: 350px;
+             height: 50px;
+             font-size: 20px;
+             margin-left: -20px;
+           }
+           .todo_list h2{
+            font-size: 50px;
+        }
+        .todo_list_add_row input{
+            width: 3px;
+            margin-left: -50px;
+        }
+        .todo_list_add_row button{
+            width: 100px;
+        }
      }
+
+    
 
      @media only screen and (min-width: 362px) and (max-width: 425px) {
         #landing-page{
@@ -556,12 +604,12 @@ h4 a{
         .greeting-container{
             height: 400px;
             width: 300px;
-            margin-left: -1px;
+            margin-left: -20px;
         }
         .description-container{
             height: 750px;
             width: 300px;
-            margin-left: -1px;
+            margin-left: -20px;
             
         }
         #landing-page-signUp-button{
@@ -569,21 +617,38 @@ h4 a{
             background-color: rgb(232,16,138);
             margin-left:50px;
         }
+        #signUp-form{
+            margin-top: 5%;
+            margin-left: -13%;
+            width: 400px;
+            height: 700px;
+        }
 
         h4{
             font-size:20px;
             margin-left:50px;
             margin-top: 50px;
         }
+        .signup-input{
+            width: 300px;
+            height: 50px;
+            margin: 10px;
+        }
+        #button{
+            width:300px;
+            height: 50px;
+            
+         }
+       
 
      }
-     @media only screen and (min-width: 250px) and (max-width: 320px) {
+     @media only screen and (min-width: 320px) and (max-width: 375px) {
         #landing-page{
-            margin: 20px;
-            width:280px;
-            height:180vh;
+            margin: 10px;
+            width:350px;
+            height:1500px;
         }
-        .greeting-container{
+         .greeting-container{
             height: 400px;
             width: 280px;
             margin-left: -1px;
@@ -603,8 +668,34 @@ h4 a{
             font-size:20px;
             margin-left:50px;
             margin-top: 50px;
+        } 
+        #login-form{
+           width: 350px;
+            margin-left: -45px;
+           margin-top: 50%;
+    
         }
-        
+        #login-button{
+            width:300px;
+            height: 50px;
+            margin-left: -20px;
+         }
+         .login-input{
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            margin-left: -20px;
+          }
+          .todo_list h2{
+            font-size: 50px;
+        }
+        .todo_list_add_row input{
+            width: 170px;
+            margin-left: -50px;
+        }
+        .todo_list_add_row button{
+            width: 100px;
+        }
      }
 
      
@@ -663,8 +754,171 @@ h4 a{
       }
 
      }
+     @media only screen and (min-width: 200px) and (max-width: 280px) {
+        #landing-page{
+            margin-left: 5px;
+            width: 280px;
+        }
+      #hello-greeting{
+        font-size: 40px;
+      }
+      .greeting-container{
+        height: 200px;
+        width: 280px;
+        margin-left: -20px;
+    }
+    .description-container{
+        height: 450px;
+        width: 280px;
+        margin-left: -20px;
+        
+    }
+    #description-paragraph{
+        font-size: 20px;
+    }
+    #landing-page-signUp-button{
+        margin-left: 30px;
+        width: 180px;
+    }
+    h4{
+        font-size:20px;
+        margin-left:30px;
+        margin-top: 50px;
+    }
+    #signUp-form{
+        margin-top: 5%;
+        margin-left: -27%;
+        width: 275px;
+        height: 550px;
+    }
+    #button{
+        width:200px;
+        margin-left: -20px;
+        
+     }
+     .signup-input{
+        width: 180px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .login-input{
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        margin: 12px;
+      }
+      #login-form{
+        width: 280px;
+        margin-left: -50px;
+        height: 600px;
 
+    }
+    #login-button{
+        width:200px;
+        height: 50px;
+     }
+     #todo-page{
+        margin-left: 15px;
+        height:100vh;
+        width:250px;
+    }
+    .todo_list_add_row input{
+        width: 150px;
+        margin-left: -50px;
+    }
+    .todo_list_add_row button{
+        width: 100px;
+    }
+    .todo_list h2{
+        font-size: 50px;
+    }
 
-
+     }
+     @media only screen and (min-width: 820px) and (max-width: 912px) {
+        #landing-page{
+            margin-left: 3px;
+            margin-top: -10px;
+            width: 900px;
+            height:950px;
+        }
+        #login-form{
+           width: 900px;
+           height: 50vh;
+            margin-left: -5%;
+           margin-top: 10%;
+    
+        }
+        .login-input{
+            width: 800px;
+            height: 50px;
+            font-size: 20px;
+            margin: 12px;
+          }
+          #login-button{
+            width:800px;
+            height: 50px;
+         }
+     }
+     @media only screen and (min-width: 450px) and (max-width: 540px) {
+        .greeting-container{
+            height: 200px;
+            width: 400px;
+            margin-left: 5px;
+        }
+        .description-container{
+            height: 550px;
+            width: 400px;
+            margin-left: 5px;
+            
+        }
+        #landing-page-signUp-button{
+            margin-left: 10px;
+            width: 400px;
+        }
+        h4{
+            font-size:30px;
+            margin-left:15%;
+            margin-top: 50px;
+        }
+        #landing-page{
+            
+            width: 450px;
+            height: 160vh;
+        }
+        #login-form{
+           
+            margin-left: -30px;
+           margin-top: 30%;
+    
+        }
+     }
+     @media only screen and (min-width: 390px) and (max-width: 393px){
+        .login-input{
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            margin: 12px;
+          }
+          #login-form{
+            width: 390px;
+            margin-left: -50px;
+            height: 600px;
+    
+        }
+        #login-button{
+            width:300px;
+            height: 50px;
+         }
+         .todo_list_add_row input{
+            width: 150px;
+            margin-left: -50px;
+        }
+        .todo_list_add_row button{
+            width: 100px;
+        }
+        .todo_list h2{
+            font-size: 50px;
+        }
+     }
 
 /*Achievement*/
